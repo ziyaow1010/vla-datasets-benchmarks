@@ -72,31 +72,31 @@ We keep each entry short and rely on **colored tags** (badges) to highlight key 
 
 ## Real-World Robot Datasets
 
-### **Open X-Embodiment (2023, arXiv)** 
+- **Open X-Embodiment (2023, arXiv)** 
 ![](https://img.shields.io/badge/ds--real-2ea44f) ![](https://img.shields.io/badge/act--mixed-8b949e) ![](https://img.shields.io/badge/ctrl--mixed-8b949e) ![](https://img.shields.io/badge/vis--image-0ea5e9) ![](https://img.shields.io/badge/task--multi--scene-d29922)  
 Links: [paper]() | [website]() | [code]()
 
-### **RT-1 Dataset (2022, arXiv)** 
+- **RT-1 Dataset (2022, arXiv)** 
 ![](https://img.shields.io/badge/ds--real-2ea44f) ![](https://img.shields.io/badge/act--delta-1f6feb) ![](https://img.shields.io/badge/ctrl--EEF-f85149) ![](https://img.shields.io/badge/vis--image-0ea5e9) ![](https://img.shields.io/badge/task--tabletop-f59e0b) ![](https://img.shields.io/badge/task--short-0ea5e9)  
 Links: [paper]() | [website]() | [code]()
 
-### **RT-2 Data (2023, arXiv)** 
+- **RT-2 Data (2023, arXiv)** 
 ![](https://img.shields.io/badge/ds--mixed-8b949e) ![](https://img.shields.io/badge/act--mixed-8b949e) ![](https://img.shields.io/badge/ctrl--EEF-f85149) ![](https://img.shields.io/badge/vis--image-0ea5e9)  
 Links: [paper]() | [website]() | [code]()
 
-### **DROID (2024, RSS)** 
+- **DROID (2024, RSS)** 
 ![](https://img.shields.io/badge/ds--real-2ea44f) ![](https://img.shields.io/badge/act--delta-1f6feb) ![](https://img.shields.io/badge/ctrl--EEF-f85149) ![](https://img.shields.io/badge/vis--image-0ea5e9) ![](https://img.shields.io/badge/task--tabletop-f59e0b)  
 Links: [paper]() | [website]() | [code]()
 
-### **BridgeData V2 (2023, CoRL)** 
+- **BridgeData V2 (2023, CoRL)** 
 ![](https://img.shields.io/badge/ds--real-2ea44f) ![](https://img.shields.io/badge/act--delta-1f6feb) ![](https://img.shields.io/badge/ctrl--EEF-f85149) ![](https://img.shields.io/badge/vis--3D-14b8a6) ![](https://img.shields.io/badge/task--tabletop-f59e0b)  
 Links: [paper]() | [website]() | [code]()
 
-### **RH20T (2023, RSS)** 
+- **RH20T (2023, RSS)** 
 ![](https://img.shields.io/badge/ds--real-2ea44f) ![](https://img.shields.io/badge/act--absolute-0a3069) ![](https://img.shields.io/badge/ctrl--mixed-8b949e) ![](https://img.shields.io/badge/vis--3D-14b8a6) ![](https://img.shields.io/badge/task--multi--scene-d29922)  
 Links: [paper]() | [website]() | [code]()
 
-### **Ego4D (2022, CVPR)** 
+- **Ego4D (2022, CVPR)** 
 ![](https://img.shields.io/badge/ds--real-2ea44f) ![](https://img.shields.io/badge/act--absolute-0a3069) ![](https://img.shields.io/badge/ctrl--EEF-f85149) ![](https://img.shields.io/badge/vis--video-0284c7) ![](https://img.shields.io/badge/task--multi--scene-d29922)  
 Links: [paper]() | [website]() | [code]()
 
@@ -106,15 +106,15 @@ Links: [paper]() | [website]() | [code]()
 
 ## Simulation and Synthetic Datasets
 
-### **GraspVLA (2025, arXiv)** 
+- **GraspVLA (2025, arXiv)** 
 ![](https://img.shields.io/badge/ds--synthetic-8957e5) ![](https://img.shields.io/badge/act--absolute-0a3069) ![](https://img.shields.io/badge/ctrl--DoF-d29922) ![](https://img.shields.io/badge/vis--3D-14b8a6) ![](https://img.shields.io/badge/task--tabletop-f59e0b) ![](https://img.shields.io/badge/task--short-0ea5e9)  
 Links: [paper]() | [website]() | [code]()
 
-### **RoboGen (2024, ICML)** 
+- **RoboGen (2024, ICML)** 
 ![](https://img.shields.io/badge/ds--synthetic-8957e5) ![](https://img.shields.io/badge/act--mixed-8b949e) ![](https://img.shields.io/badge/ctrl--mixed-8b949e) ![](https://img.shields.io/badge/vis--image-0ea5e9) ![](https://img.shields.io/badge/task--multi--scene-d29922)  
 Links: [paper]() | [website]() | [code]()
 
-### **MimicGen (2023, CoRL)** 
+- **MimicGen (2023, CoRL)** 
 ![](https://img.shields.io/badge/ds--synthetic-8957e5) ![](https://img.shields.io/badge/act--mixed-8b949e) ![](https://img.shields.io/badge/ctrl--mixed-8b949e) ![](https://img.shields.io/badge/vis--image-0ea5e9) ![](https://img.shields.io/badge/task--tabletop-f59e0b)  
 Links: [paper]() | [website]() | [code]()
 
@@ -130,15 +130,15 @@ Links: [paper]() | [website]() | [code]()
 ## Tabletop + Simple Tasks
 Short-horizon tabletop manipulation benchmarks under controlled settings.
 
-### **Meta-World (2021, arXiv)** 
+- **Meta-World (2021, arXiv)** 
 ![](https://img.shields.io/badge/task--tabletop-f59e0b) ![](https://img.shields.io/badge/task--short-0ea5e9)  
 Links: [paper]() | [website]() | [code]()
 
-### **LIBERO (2023, CoRL)** 
+- **LIBERO (2023, CoRL)** 
 ![](https://img.shields.io/badge/task--tabletop-f59e0b) ![](https://img.shields.io/badge/task--short-0ea5e9)  
 Links: [paper]() | [website]() | [code]()
 
-### **SimplerEnv (2024, arXiv)** 
+- **SimplerEnv (2024, arXiv)** 
 ![](https://img.shields.io/badge/task--tabletop-f59e0b) ![](https://img.shields.io/badge/task--short-0ea5e9)  
 Links: [paper]() | [website]() | [code]()
 
@@ -147,7 +147,7 @@ Links: [paper]() | [website]() | [code]()
 ## Tabletop + Long-Horizon / Complex Tasks
 Long-horizon instruction following and compositional manipulation in tabletop settings.
 
-### **CALVIN (2022, arXiv)** 
+- **CALVIN (2022, arXiv)** 
 ![](https://img.shields.io/badge/task--tabletop-f59e0b) ![](https://img.shields.io/badge/task--long-ec4899)  
 Links: [paper]() | [website]() | [code]()
 
@@ -161,15 +161,15 @@ Links: [paper]() | [website]() | [code]()
 ## Multi-Scene + Long-Horizon / Complex Tasks
 Multi-room / full-scene environments with long-horizon and compositional tasks.
 
-### **BEHAVIOR-1K (2024)** 
+- **BEHAVIOR-1K (2024)** 
 ![](https://img.shields.io/badge/task--multi--scene-d29922) ![](https://img.shields.io/badge/task--long-ec4899)  
 Links: [paper]() | [website]() | [code]()
 
-### **VLABench (2024, arXiv)** 
+- **VLABench (2024, arXiv)** 
 ![](https://img.shields.io/badge/task--multi--scene-d29922) ![](https://img.shields.io/badge/task--long-ec4899)  
 Links: [paper]() | [website]() | [code]()
 
-### **Open X-Embodiment (Evaluation Regime)** 
+- **Open X-Embodiment (Evaluation Regime)** 
 ![](https://img.shields.io/badge/task--multi--scene-d29922) ![](https://img.shields.io/badge/task--long-ec4899)  
 Links: [paper]() | [website]() | [code]()
 
