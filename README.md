@@ -72,21 +72,21 @@ We keep each entry short and rely on **colored tags** (badges) to highlight key 
 
 ## Real-World Robot Datasets
 
-- **Benchmarking Vision, Language, & Action Models on Robotic Learning Tasks (2023, arXiv)**<br>Pranav Guruprasad, Harshvardhan Sikka, Jaewoo Song, Yangyue Wang, Paul Pu Liang
-![](https://img.shields.io/badge/ds--real-2ea44f) ![](https://img.shields.io/badge/act--mixed-8b949e) ![](https://img.shields.io/badge/ctrl--mixed-8b949e) ![](https://img.shields.io/badge/vis--image-0ea5e9) ![](https://img.shields.io/badge/task--multi--scene-d29922)  
-Links: [paper](https://ieeexplore.ieee.org/document/10611477) | [website]() | [code]()
+- **Ego4D: Around the World in 3,000 Hours of Egocentric Video (2022, CVPR)**<br>Kristen Grauman, Andrew Westbury, Eugene Byrne et al.
+![](https://img.shields.io/badge/ds--real-2ea44f) ![](https://img.shields.io/badge/act--absolute-0a3069) ![](https://img.shields.io/badge/ctrl--EEF-f85149) ![](https://img.shields.io/badge/vis--video-0284c7) ![](https://img.shields.io/badge/task--multi--scene-d29922)  
+Links: [paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Grauman_Ego4D_Around_the_World_in_3000_Hours_of_Egocentric_Video_CVPR_2022_paper.pdf) | [website]() | [code]()
 
 - **RT-1: Robotics Transformer for Real-World Control at Scale (2022, arXiv)**<br>Anthony Brohan, Noah Brown, Justice Carbajal et al.
 ![](https://img.shields.io/badge/ds--real-2ea44f) ![](https://img.shields.io/badge/act--delta-1f6feb) ![](https://img.shields.io/badge/ctrl--EEF-f85149) ![](https://img.shields.io/badge/vis--image-0ea5e9) ![](https://img.shields.io/badge/task--tabletop-f59e0b) ![](https://img.shields.io/badge/task--short-0ea5e9)  
 Links: [paper](https://arxiv.org/pdf/2212.06817) | [website]() | [code]()
 
+- **Benchmarking Vision, Language, & Action Models on Robotic Learning Tasks (2023, arXiv)**<br>Pranav Guruprasad, Harshvardhan Sikka, Jaewoo Song, Yangyue Wang, Paul Pu Liang
+![](https://img.shields.io/badge/ds--real-2ea44f) ![](https://img.shields.io/badge/act--mixed-8b949e) ![](https://img.shields.io/badge/ctrl--mixed-8b949e) ![](https://img.shields.io/badge/vis--image-0ea5e9) ![](https://img.shields.io/badge/task--multi--scene-d29922)  
+Links: [paper](https://ieeexplore.ieee.org/document/10611477) | [website]() | [code]()
+
 - **RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control (2023, PMLR)**<br>Brianna Zitkovich, Tianhe Yu, Sichun Xu et al.
 ![](https://img.shields.io/badge/ds--mixed-8b949e) ![](https://img.shields.io/badge/act--mixed-8b949e) ![](https://img.shields.io/badge/ctrl--EEF-f85149) ![](https://img.shields.io/badge/vis--image-0ea5e9)  
 Links: [paper](https://proceedings.mlr.press/v229/zitkovich23a/zitkovich23a.pdf) | [website](https://proceedings.mlr.press/v229/zitkovich23a.html) | [code]()
-
-- **DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset (2024, RSS)**<br>Alexander Khazatsky, Karl Pertsch, Suraj Nair et al.
-![](https://img.shields.io/badge/ds--real-2ea44f) ![](https://img.shields.io/badge/act--delta-1f6feb) ![](https://img.shields.io/badge/ctrl--EEF-f85149) ![](https://img.shields.io/badge/vis--image-0ea5e9) ![](https://img.shields.io/badge/task--tabletop-f59e0b)  
-Links: [paper](https://arxiv.org/pdf/2403.12945) | [website]() | [code]()
 
 - **BridgeData V2: A Dataset for Robot Learning at Scale (2023, PMLR)**<br>Homer Rich Walke, Kevin Black, Tony Z. Zhao, Quan Vuong, Chongyi Zheng, Philippe Hansen-Estruch, Andre Wang He, Vivek Myers, Moo Jin Kim, Max Du, Abraham Lee, Kuan Fang, Chelsea Finn, Sergey Levine
 ![](https://img.shields.io/badge/ds--real-2ea44f) ![](https://img.shields.io/badge/act--delta-1f6feb) ![](https://img.shields.io/badge/ctrl--EEF-f85149) ![](https://img.shields.io/badge/vis--3D-14b8a6) ![](https://img.shields.io/badge/task--tabletop-f59e0b)  
@@ -96,9 +96,9 @@ Links: [paper](https://proceedings.mlr.press/v229/walke23a/walke23a.pdf) | [webs
 ![](https://img.shields.io/badge/ds--real-2ea44f) ![](https://img.shields.io/badge/act--absolute-0a3069) ![](https://img.shields.io/badge/ctrl--mixed-8b949e) ![](https://img.shields.io/badge/vis--3D-14b8a6) ![](https://img.shields.io/badge/task--multi--scene-d29922)  
 Links: [paper](https://arxiv.org/pdf/2307.00595) | [website]() | [code]()
 
-- **Ego4D: Around the World in 3,000 Hours of Egocentric Video (2022, CVPR)**<br>Kristen Grauman, Andrew Westbury, Eugene Byrne et al.
-![](https://img.shields.io/badge/ds--real-2ea44f) ![](https://img.shields.io/badge/act--absolute-0a3069) ![](https://img.shields.io/badge/ctrl--EEF-f85149) ![](https://img.shields.io/badge/vis--video-0284c7) ![](https://img.shields.io/badge/task--multi--scene-d29922)  
-Links: [paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Grauman_Ego4D_Around_the_World_in_3000_Hours_of_Egocentric_Video_CVPR_2022_paper.pdf) | [website]() | [code]()
+- **DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset (2024, RSS)**<br>Alexander Khazatsky, Karl Pertsch, Suraj Nair et al.
+![](https://img.shields.io/badge/ds--real-2ea44f) ![](https://img.shields.io/badge/act--delta-1f6feb) ![](https://img.shields.io/badge/ctrl--EEF-f85149) ![](https://img.shields.io/badge/vis--image-0ea5e9) ![](https://img.shields.io/badge/task--tabletop-f59e0b)  
+Links: [paper](https://arxiv.org/pdf/2403.12945) | [website]() | [code]()
 
 > Note: Ego4D is a human egocentric video dataset (no robot actions), often used for learning visual affordances and priors.
 
@@ -106,17 +106,17 @@ Links: [paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Grauman_Ego
 
 ## Simulation and Synthetic Datasets
 
-- **GraspVLA: a Grasping Foundation Model Pre-trained on Billion-scale Synthetic Action Data (2025, arXiv)**<br>Shengliang Deng, Mi Yan, Songlin Wei, Haixin Ma, Yuxin Yang, Jiayi Chen, Zhiqi Zhang, Taoyu Yang, Xuheng Zhang, Wenhao Zhang, Heming Cui, Zhizheng Zhang, He Wang
-![](https://img.shields.io/badge/ds--synthetic-8957e5) ![](https://img.shields.io/badge/act--absolute-0a3069) ![](https://img.shields.io/badge/ctrl--DoF-d29922) ![](https://img.shields.io/badge/vis--3D-14b8a6) ![](https://img.shields.io/badge/task--tabletop-f59e0b) ![](https://img.shields.io/badge/task--short-0ea5e9)  
-Links: [paper](https://arxiv.org/pdf/2505.03233) | [website]() | [code]()
+- **MimicGen: A Data Generation System for Scalable Robot Learning using Human Demonstrations (2023, CoRL)**<br>Ajay Mandlekar, Soroush Nasiriany, Bowen Wen, Iretiayo Akinola, Yashraj Narang, Linxi Fan, Yuke Zhu, Dieter Fox
+![](https://img.shields.io/badge/ds--synthetic-8957e5) ![](https://img.shields.io/badge/act--mixed-8b949e) ![](https://img.shields.io/badge/ctrl--mixed-8b949e) ![](https://img.shields.io/badge/vis--image-0ea5e9) ![](https://img.shields.io/badge/task--tabletop-f59e0b)  
+Links: [paper](https://arxiv.org/pdf/2310.17596) | [website]() | [code]()
 
 - **RoboGen: Towards Unleashing Infinite Data for Automated Robot Learning via Generative Simulation (2024, ICML)**<br>Yufei Wang, Zhou Xian, Feng Chen, Tsun-Hsuan Wang, Yian Wang, Katerina Fragkiadaki, Zackory Erickson, David Held, Chuang Gan
 ![](https://img.shields.io/badge/ds--synthetic-8957e5) ![](https://img.shields.io/badge/act--mixed-8b949e) ![](https://img.shields.io/badge/ctrl--mixed-8b949e) ![](https://img.shields.io/badge/vis--image-0ea5e9) ![](https://img.shields.io/badge/task--multi--scene-d29922)  
 Links: [paper](https://arxiv.org/pdf/2311.01455) | [website]() | [code]()
 
-- **MimicGen: A Data Generation System for Scalable Robot Learning using Human Demonstrations (2023, CoRL)**<br>Ajay Mandlekar, Soroush Nasiriany, Bowen Wen, Iretiayo Akinola, Yashraj Narang, Linxi Fan, Yuke Zhu, Dieter Fox
-![](https://img.shields.io/badge/ds--synthetic-8957e5) ![](https://img.shields.io/badge/act--mixed-8b949e) ![](https://img.shields.io/badge/ctrl--mixed-8b949e) ![](https://img.shields.io/badge/vis--image-0ea5e9) ![](https://img.shields.io/badge/task--tabletop-f59e0b)  
-Links: [paper](https://arxiv.org/pdf/2310.17596) | [website]() | [code]()
+- **GraspVLA: a Grasping Foundation Model Pre-trained on Billion-scale Synthetic Action Data (2025, arXiv)**<br>Shengliang Deng, Mi Yan, Songlin Wei, Haixin Ma, Yuxin Yang, Jiayi Chen, Zhiqi Zhang, Taoyu Yang, Xuheng Zhang, Wenhao Zhang, Heming Cui, Zhizheng Zhang, He Wang
+![](https://img.shields.io/badge/ds--synthetic-8957e5) ![](https://img.shields.io/badge/act--absolute-0a3069) ![](https://img.shields.io/badge/ctrl--DoF-d29922) ![](https://img.shields.io/badge/vis--3D-14b8a6) ![](https://img.shields.io/badge/task--tabletop-f59e0b) ![](https://img.shields.io/badge/task--short-0ea5e9)  
+Links: [paper](https://arxiv.org/pdf/2505.03233) | [website]() | [code]()
 
 ---
 
