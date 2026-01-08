@@ -3,7 +3,7 @@
 A curated list of datasets and benchmarks for **Vision-Language-Action (VLA)** research.
 This repository focuses on **data formats, evaluation protocols, and benchmark comparability**, with practical guidance on **which dataset/benchmark to use** for different research needs.
 
-> Maintained by: *Your Name / Lab*  
+> Maintained by: *Ziyao Wang, Bingying Wang, Hanrong Zhang / UMD CaseLab*  
 > Scope: datasets + benchmarks + evaluation protocols (no model architecture deep dive)
 
 ---
