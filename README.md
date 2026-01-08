@@ -72,9 +72,9 @@ We keep each entry short and rely on **colored tags** (badges) to highlight key 
 
 ## Real-World Robot Datasets
 
-- **Open X-Embodiment (2023, arXiv)** 
+- **Benchmarking Vision, Language, & Action Models on Robotic Learning Tasks, (2023, arXiv)** Pranav Guruprasad, Harshvardhan Sikka, Jaewoo Song, Yangyue Wang, Paul Pu Liang
 ![](https://img.shields.io/badge/ds--real-2ea44f) ![](https://img.shields.io/badge/act--mixed-8b949e) ![](https://img.shields.io/badge/ctrl--mixed-8b949e) ![](https://img.shields.io/badge/vis--image-0ea5e9) ![](https://img.shields.io/badge/task--multi--scene-d29922)  
-Links: [paper]() | [website]() | [code]()
+Links: [paper](https://ieeexplore.ieee.org/document/10611477) | [website]() | [code]()
 
 - **RT-1 Dataset (2022, arXiv)** 
 ![](https://img.shields.io/badge/ds--real-2ea44f) ![](https://img.shields.io/badge/act--delta-1f6feb) ![](https://img.shields.io/badge/ctrl--EEF-f85149) ![](https://img.shields.io/badge/vis--image-0ea5e9) ![](https://img.shields.io/badge/task--tabletop-f59e0b) ![](https://img.shields.io/badge/task--short-0ea5e9)  
