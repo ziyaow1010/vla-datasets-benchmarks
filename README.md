@@ -1,10 +1,10 @@
-# VLA Datasets & Benchmarks (Vision-Language-Action)
+# Vision-Language-Action in Robotics: A Survey of Datasets, Benchmarks, and Data Engines
 
-A curated list of datasets and benchmarks for **Vision-Language-Action (VLA)** research.  
+A curated list of datasets, benchmarks, and data engines for **Vision-Language-Action (VLA)** research.  
 This repository focuses on **data formats, evaluation protocols, and benchmark comparability**, with practical guidance on **which dataset/benchmark to use** for different research needs.
 
 > Maintained by: *Ziyao Wang, Bingying Wang, Hanrong Zhang / UMD CaseLab*  
-> Scope: datasets + benchmarks + evaluation protocols (no model architecture deep dive)
+> Scope: datasets + benchmarks + data engines (no model architecture deep dive)
 
 ---
 
