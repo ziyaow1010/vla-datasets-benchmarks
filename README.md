@@ -8,6 +8,11 @@ This repository focuses on **data formats, evaluation protocols, and benchmark c
 
 ---
 
+[![Paper](assets/paper.png)](paper/VLA_survey.pdf)
+
+
+---
+
 ## Table of Contents
 - [How to Use This List](#how-to-use-this-list)
 - [Tag Legend](#tag-legend)
