@@ -90,7 +90,7 @@ We keep each entry short and rely on **colored tags** (badges) to highlight key 
 
 ---
 
-![Paper](assets/paper.png)
+![Paper](assets/show_tree.png)
 
 ---
 # Datasets
