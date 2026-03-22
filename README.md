@@ -8,7 +8,7 @@ This repository focuses on **data formats, evaluation protocols, and benchmark c
 
 ---
 
-[![Paper](assets/paper.png)](paper/VLA_survey.pdf)
+[![Paper](assets/show_tree.png)](paper/VLA_survey.pdf)
 
 
 ---
