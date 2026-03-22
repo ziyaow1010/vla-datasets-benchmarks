@@ -8,11 +8,6 @@ This repository focuses on **data formats, evaluation protocols, and benchmark c
 
 ---
 
-![Paper](assets/show_tree.png)
-
-
----
-
 ## Table of Contents
 - [How to Use This List](#how-to-use-this-list)
 - [Tag Legend](#tag-legend)
@@ -95,6 +90,9 @@ We keep each entry short and rely on **colored tags** (badges) to highlight key 
 
 ---
 
+![Paper](assets/paper.png)
+
+---
 # Datasets
 
 ## Real-World Robot Datasets
