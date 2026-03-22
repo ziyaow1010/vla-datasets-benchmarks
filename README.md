@@ -20,6 +20,10 @@ This repository focuses on **data formats, evaluation protocols, and benchmark c
   - [Tabletop + Long-Horizon / Complex Tasks](#tabletop--long-horizon--complex-tasks)
   - [Multi-Scene + Simple Tasks](#multi-scene--simple-tasks)
   - [Multi-Scene + Long-Horizon / Complex Tasks](#multi-scene--long-horizon--complex-tasks)
+- [Data Engines](#data-engines)
+  - [Video-to-Data Engines](#video-to-data-engines)
+  - [Hardware-Assisted Engines](#hardware-assisted-engines)
+  - [Generative Data Engines](#generative-data-engines)
 - [Evaluation Protocols & Metrics](#evaluation-protocols--metrics)
 - [Contributing](#contributing)
 - [Citation](#citation)
@@ -65,6 +69,24 @@ We keep each entry short and rely on **colored tags** (badges) to highlight key 
 - ![](https://img.shields.io/badge/task--multi--scene-d29922) multi-scene
 - ![](https://img.shields.io/badge/task--short-0ea5e9) short-horizon
 - ![](https://img.shields.io/badge/task--long-ec4899) long-horizon
+
+### Data engine tags
+
+**Engine type**
+- ![](https://img.shields.io/badge/eng--video2data-7c3aed) video-to-data
+- ![](https://img.shields.io/badge/eng--hardware-2563eb) hardware-assisted
+- ![](https://img.shields.io/badge/eng--generative-db2777) generative
+
+**Supervision source**
+- ![](https://img.shields.io/badge/src--human-16a34a) human demonstrations
+- ![](https://img.shields.io/badge/src--sim-9333ea) simulation
+- ![](https://img.shields.io/badge/src--video-0ea5e9) human / internet video
+- ![](https://img.shields.io/badge/src--hybrid-6b7280) hybrid sources
+
+**Deployment style**
+- ![](https://img.shields.io/badge/deploy--portable-f59e0b) portable / in-the-wild collection
+- ![](https://img.shields.io/badge/deploy--lab-d97706) lab-based setup
+- ![](https://img.shields.io/badge/deploy--closedloop-0891b2) closed-loop world modeling
 
 ---
 
@@ -172,6 +194,87 @@ Links: [paper](https://openaccess.thecvf.com/content/ICCV2025/papers/Zhang_VLABe
 - **Open X-Embodiment: Robotic Learning Datasets and RT-X Models**<br>Open X-Embodiment Collaboration et al.
 ![](https://img.shields.io/badge/task--multi--scene-d29922) ![](https://img.shields.io/badge/task--long-ec4899)  
 Links: [paper](https://arxiv.org/pdf/2310.08864) | [website]() | [code]() [2023, Evaluation Regime]
+
+---
+
+# Data Engines
+
+Data engines focus on **how VLA training data is produced**, rather than only listing static datasets.  
+Here we group them into three categories: **Video-to-Data Engines**, **Hardware-Assisted Engines**, and **Generative Data Engines**.
+
+## Video-to-Data Engines
+
+Video-to-data engines transform human or internet videos into robot-executable training data, helping scale supervision beyond manually collected robot demonstrations.
+
+- **UniSim**<br>
+  Authors  
+  ![](https://img.shields.io/badge/eng--video2data-7c3aed) ![](https://img.shields.io/badge/src--video-0ea5e9) ![](https://img.shields.io/badge/src--hybrid-6b7280) ![](https://img.shields.io/badge/deploy--closedloop-0891b2)  
+  Links: [paper]() | [website]() | [code]() [year, venue]  
+  A conditional video-diffusion-based simulator that learns from internet videos and robot data, enabling closed-loop training for long-horizon robot interaction.
+
+## Hardware-Assisted Engines
+
+Hardware-assisted engines collect robot data through teleoperation devices, wearable sensors, or portable interfaces, enabling direct action capture without full scene reconstruction.
+
+- **ALOHA: Low-Cost Hardware for Bimanual Teleoperation**<br>
+  Authors  
+  ![](https://img.shields.io/badge/eng--hardware-2563eb) ![](https://img.shields.io/badge/src--human-16a34a) ![](https://img.shields.io/badge/deploy--lab-d97706)  
+  Links: [paper]() | [website]() | [code]() [year, venue]  
+  A low-cost robot-to-robot teleoperation system for collecting high-quality bimanual manipulation demonstrations in lab settings.
+
+- **GELLO**<br>
+  Authors  
+  ![](https://img.shields.io/badge/eng--hardware-2563eb) ![](https://img.shields.io/badge/src--human-16a34a) ![](https://img.shields.io/badge/deploy--lab-d97706)  
+  Links: [paper]() | [website]() | [code]() [year, venue]  
+  A low-cost teleoperation interface designed for scalable real-world demonstration collection with improved accessibility and reliability.
+
+- **UMI: Universal Manipulation Interface**<br>
+  Authors  
+  ![](https://img.shields.io/badge/eng--hardware-2563eb) ![](https://img.shields.io/badge/src--human-16a34a) ![](https://img.shields.io/badge/deploy--portable-f59e0b)  
+  Links: [paper]() | [website]() | [code]() [year, venue]  
+  A portable in-the-wild data collection interface that combines a handheld gripper and egocentric sensing for scalable manipulation demonstrations.
+
+- **DexCap**<br>
+  Authors  
+  ![](https://img.shields.io/badge/eng--hardware-2563eb) ![](https://img.shields.io/badge/src--human-16a34a) ![](https://img.shields.io/badge/deploy--portable-f59e0b)  
+  Links: [paper]() | [website]() | [code]() [year, venue]  
+  A dexterous data collection system that uses wearable sensing and RGB-D perception to capture multi-finger manipulation demonstrations for retargetable robot learning.
+
+## Generative Data Engines
+
+Generative data engines scale VLA training by synthesizing trajectories, tasks, scenes, or future observations through simulation and generative models.
+
+- **MimicGen: A Data Generation System for Scalable Robot Learning using Human Demonstrations**<br>
+  Ajay Mandlekar, Soroush Nasiriany, Bowen Wen, Iretiayo Akinola, Yashraj Narang, Linxi Fan, Yuke Zhu, Dieter Fox  
+  ![](https://img.shields.io/badge/eng--generative-db2777) ![](https://img.shields.io/badge/src--sim-9333ea) ![](https://img.shields.io/badge/src--human-16a34a)  
+  Links: [paper](https://arxiv.org/pdf/2310.17596) | [website]() | [code]() [2023, CoRL]  
+  A trajectory-reuse data engine that segments demonstrations into reusable subtasks and recombines them to generate large amounts of synthetic robot training data.
+
+- **GenSim**<br>
+  Authors  
+  ![](https://img.shields.io/badge/eng--generative-db2777) ![](https://img.shields.io/badge/src--sim-9333ea)  
+  Links: [paper]() | [website]() | [code]() [year, venue]  
+  An LLM-driven simulation engine that generates tasks, scene configurations, and reward functions for scalable robot learning.
+
+- **ROSIE**<br>
+  Authors  
+  ![](https://img.shields.io/badge/eng--generative-db2777) ![](https://img.shields.io/badge/src--human-16a34a) ![](https://img.shields.io/badge/src--hybrid-6b7280)  
+  Links: [paper]() | [website]() | [code]() [year, venue]  
+  A diffusion-based visual augmentation engine that edits robot demonstrations to create more diverse objects, scenes, and task variations.
+
+- **3D-VLA**<br>
+  Authors  
+  ![](https://img.shields.io/badge/eng--generative-db2777) ![](https://img.shields.io/badge/src--hybrid-6b7280) ![](https://img.shields.io/badge/deploy--closedloop-0891b2)  
+  Links: [paper]() | [website]() | [code]() [year, venue]  
+  A generative engine that predicts multimodal future 3D goal states to support goal-conditioned planning and action generation in VLA systems.
+
+- **Genie**<br>
+  Authors  
+  ![](https://img.shields.io/badge/eng--generative-db2777) ![](https://img.shields.io/badge/src--video-0ea5e9) ![](https://img.shields.io/badge/deploy--closedloop-0891b2)  
+  Links: [paper]() | [website]() | [code]() [year, venue]  
+  A latent action world model learned from large-scale video data, suggesting a path toward web-scale pretraining for embodied agents.
+
+> Note: some works (e.g., MimicGen, RoboGen) are included both as dataset sources and as data engines because they provide not only generated data, but also the pipeline used to construct it.
 
 ---
 
