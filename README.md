@@ -8,7 +8,7 @@ This repository focuses on **data formats, evaluation protocols, and benchmark c
 
 ---
 
-[![Paper](assets/show_tree.png)]
+![Paper](assets/show_tree.png)
 
 
 ---
