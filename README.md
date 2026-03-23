@@ -209,8 +209,8 @@ Here we group them into three categories: **Video-to-Data Engines**, **Hardware-
 
 Video-to-data engines transform human or internet videos into robot-executable training data, helping scale supervision beyond manually collected robot demonstrations.
 
-- **UniSim**<br>
-  Authors  
+- **Learning Interactive Real-World Simulators**<br>
+  Sherry Yang, Yilun Du, Seyed Kamyar Seyed Ghasemipour, Jonathan Thompson, Leslie Kaelbling, Dale Schuurmans, Pieter Abbeel
   ![](https://img.shields.io/badge/eng--video2data-7c3aed) ![](https://img.shields.io/badge/src--video-0ea5e9) ![](https://img.shields.io/badge/src--hybrid-6b7280) ![](https://img.shields.io/badge/deploy--closedloop-0891b2)  
   Links: [paper](https://arxiv.org/pdf/2310.06114) | [website]() | [code]() [year, venue]  
   A conditional video-diffusion-based simulator that learns from internet videos and robot data, enabling closed-loop training for long-horizon robot interaction.
@@ -219,26 +219,26 @@ Video-to-data engines transform human or internet videos into robot-executable t
 
 Hardware-assisted engines collect robot data through teleoperation devices, wearable sensors, or portable interfaces, enabling direct action capture without full scene reconstruction.
 
-- **ALOHA: Low-Cost Hardware for Bimanual Teleoperation**<br>
-  Authors  
+- **Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware**<br>
+  Tony Z. Zhao, Vikash Kumar, Sergey Levine, Chelsea Finn 
   ![](https://img.shields.io/badge/eng--hardware-2563eb) ![](https://img.shields.io/badge/src--human-16a34a) ![](https://img.shields.io/badge/deploy--lab-d97706)  
   Links: [paper](https://arxiv.org/pdf/2304.13705) | [website]() | [code]() [year, venue]  
   A low-cost robot-to-robot teleoperation system for collecting high-quality bimanual manipulation demonstrations in lab settings.
 
-- **GELLO**<br>
-  Authors  
+- **GELLO: A General, Low-Cost, and Intuitive Teleoperation Framework for Robot Manipulators**<br>
+  Philipp Wu, Yide Shentu, Zhongke Yi, Xingyu Lin, Pieter Abbeel  
   ![](https://img.shields.io/badge/eng--hardware-2563eb) ![](https://img.shields.io/badge/src--human-16a34a) ![](https://img.shields.io/badge/deploy--lab-d97706)  
   Links: [paper](https://arxiv.org/pdf/2309.13037) | [website]() | [code]() [year, venue]  
   A low-cost teleoperation interface designed for scalable real-world demonstration collection with improved accessibility and reliability.
 
-- **UMI: Universal Manipulation Interface**<br>
-  Authors  
+- **Universal Manipulation Interface: In-The-Wild Robot Teaching Without In-The-Wild Robots**<br>
+  Cheng Chi, Zhenjia Xu, Chuer Pan, Eric Cousineau, Benjamin Burchfiel, Siyuan Feng, Russ Tedrake, Shuran Song
   ![](https://img.shields.io/badge/eng--hardware-2563eb) ![](https://img.shields.io/badge/src--human-16a34a) ![](https://img.shields.io/badge/deploy--portable-f59e0b)  
   Links: [paper](https://arxiv.org/pdf/2402.10329) | [website]() | [code]() [year, venue]  
   A portable in-the-wild data collection interface that combines a handheld gripper and egocentric sensing for scalable manipulation demonstrations.
 
-- **DexCap**<br>
-  Authors  
+- **DexCap: Scalable and Portable Mocap Data Collection System for Dexterous Manipulation**<br>
+  Chen Wang, Haochen Shi, Weizhuo Wang, Ruohan Zhang, Li Fei-Fei, C. Karen Liu  
   ![](https://img.shields.io/badge/eng--hardware-2563eb) ![](https://img.shields.io/badge/src--human-16a34a) ![](https://img.shields.io/badge/deploy--portable-f59e0b)  
   Links: [paper](https://arxiv.org/pdf/2403.07788) | [website]() | [code]() [year, venue]  
   A dexterous data collection system that uses wearable sensing and RGB-D perception to capture multi-finger manipulation demonstrations for retargetable robot learning.
@@ -253,26 +253,26 @@ Generative data engines scale VLA training by synthesizing trajectories, tasks, 
   Links: [paper](https://arxiv.org/pdf/2310.17596) | [website]() | [code]() [2023, CoRL]  
   A trajectory-reuse data engine that segments demonstrations into reusable subtasks and recombines them to generate large amounts of synthetic robot training data.
 
-- **GenSim**<br>
-  Authors  
+- **GenSim: Generating Robotic Simulation Tasks via Large Language Models**<br>
+  Lirui Wang, Yiyang Ling, Zhecheng Yuan, Mohit Shridhar, Chen Bao, Yuzhe Qin, Bailin Wang, Huazhe Xu, Xiaolong Wang
   ![](https://img.shields.io/badge/eng--generative-db2777) ![](https://img.shields.io/badge/src--sim-9333ea)  
   Links: [paper](https://arxiv.org/pdf/2310.01361) | [website]() | [code]() [year, venue]  
   An LLM-driven simulation engine that generates tasks, scene configurations, and reward functions for scalable robot learning.
 
-- **ROSIE**<br>
-  Authors  
+- **Scaling Robot Learning with Semantically Imagined Experience**<br>
+  Tianhe Yu, Ted Xiao, Austin Stone, Jonathan Tompson, Anthony Brohan, Su Wang, Jaspiar Singh, Clayton Tan, Dee M, Jodilyn Peralta, Brian Ichter, Karol Hausman, Fei Xia
   ![](https://img.shields.io/badge/eng--generative-db2777) ![](https://img.shields.io/badge/src--human-16a34a) ![](https://img.shields.io/badge/src--hybrid-6b7280)  
   Links: [paper](https://arxiv.org/pdf/2302.11550) | [website]() | [code]() [year, venue]  
   A diffusion-based visual augmentation engine that edits robot demonstrations to create more diverse objects, scenes, and task variations.
 
-- **3D-VLA**<br>
-  Authors  
+- **3D-VLA: A 3D Vision-Language-Action Generative World Model**<br>
+  Haoyu Zhen, Xiaowen Qiu, Peihao Chen, Jincheng Yang, Xin Yan, Yilun Du, Yining Hong, Chuang Gan 
   ![](https://img.shields.io/badge/eng--generative-db2777) ![](https://img.shields.io/badge/src--hybrid-6b7280) ![](https://img.shields.io/badge/deploy--closedloop-0891b2)  
   Links: [paper](https://arxiv.org/pdf/2403.09631) | [website]() | [code]() [year, venue]  
   A generative engine that predicts multimodal future 3D goal states to support goal-conditioned planning and action generation in VLA systems.
 
-- **Genie**<br>
-  Authors  
+- **Genie: Generative Interactive Environments**<br>
+  Jake Bruce, Michael Dennis, Ashley Edwards, Jack Parker-Holder, Yuge (Jimmy) Shi, Edward Hughes, Matthew Lai, Aditi Mavalankar, Richie Steigerwald, Chris Apps, Yusuf Aytar, Sarah Bechtle1, Feryal Behbahani, Stephanie Chan, Nicolas Heess, Lucy Gonzalez, Simon Osindero, Sherjil Ozair, Scott Reed, Jingwei Zhang, Konrad Zolna, Jeff Clune, Nando de Freitas, Satinder Singh, Tim Rocktäschel  
   ![](https://img.shields.io/badge/eng--generative-db2777) ![](https://img.shields.io/badge/src--video-0ea5e9) ![](https://img.shields.io/badge/deploy--closedloop-0891b2)  
   Links: [paper](https://arxiv.org/pdf/2402.15391) | [website]() | [code]() [year, venue]  
   A latent action world model learned from large-scale video data, suggesting a path toward web-scale pretraining for embodied agents.
