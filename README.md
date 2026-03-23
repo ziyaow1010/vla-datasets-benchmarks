@@ -268,7 +268,7 @@ Generative data engines scale VLA training by synthesizing trajectories, tasks, 
 - **3D-VLA: A 3D Vision-Language-Action Generative World Model**<br>
   Haoyu Zhen, Xiaowen Qiu, Peihao Chen, Jincheng Yang, Xin Yan, Yilun Du, Yining Hong, Chuang Gan 
   ![](https://img.shields.io/badge/eng--generative-db2777) ![](https://img.shields.io/badge/src--hybrid-6b7280) ![](https://img.shields.io/badge/deploy--closedloop-0891b2)  
-  Links: [paper](https://arxiv.org/pdf/2403.09631) | [website]() | [code]() [2024, CVPR]  
+  Links: [paper](https://arxiv.org/pdf/2403.09631) | [website]() | [code]() [2024, ICML]  
   A generative engine that predicts multimodal future 3D goal states to support goal-conditioned planning and action generation in VLA systems.
 
 - **Genie: Generative Interactive Environments**<br>
