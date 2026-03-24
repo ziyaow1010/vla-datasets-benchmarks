@@ -210,9 +210,8 @@ Here we group them into three categories: **Video-to-Data Engines**, **Hardware-
 Video-to-data engines transform human or internet videos into robot-executable training data, helping scale supervision beyond manually collected robot demonstrations.
 - **Video2Policy: Scaling up Manipulation Tasks in Simulation through Internet Videos**<br>
 Weirui Ye, Fangchen Liu, Zheng Ding, Yang Gao, Oleh Rybkin, Pieter Abbeel
-1
-![](https://img.shields.io/badge/task--multi--scene-d29922) ![](https://img.shields.io/badge/task--long-ec4899)  
-Links: [paper](https://arxiv.org/pdf/2310.08864) | [website]() | [code]() [2023, Evaluation Regime]
+1 
+Links: [paper](https://arxiv.org/abs/2502.09886) | [website]() | [code]() 
 
 - **Learning Interactive Real-World Simulators**<br>
   Sherry Yang, Yilun Du, Seyed Kamyar Seyed Ghasemipour, Jonathan Thompson, Leslie Kaelbling, Dale Schuurmans, Pieter Abbeel
