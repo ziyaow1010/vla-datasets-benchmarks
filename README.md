@@ -205,13 +205,6 @@ Links: [paper](https://arxiv.org/pdf/2310.08864) | [website]() | [code]() [2023,
 Data engines focus on **how VLA training data is produced**, rather than only listing static datasets.  
 Here we group them into three categories: **Video-to-Data Engines**, **Hardware-Assisted Engines**, and **Generative Data Engines**.
 
-## Video-to-Data Engines
-
-Video-to-data engines transform human or internet videos into robot-executable training data, helping scale supervision beyond manually collected robot demonstrations.
-- **Video2Policy: Scaling up Manipulation Tasks in Simulation through Internet Videos**<br>
-Weirui Ye, Fangchen Liu, Zheng Ding, Yang Gao, Oleh Rybkin, Pieter Abbeel
-1 
-Links: [paper](https://arxiv.org/abs/2502.09886) | [website]() | [code]()
 
 - **Video2Policy: Scaling up Manipulation Tasks in Simulation through Internet Videos**<br>
   Weirui Ye, Fangchen Liu, Zheng Ding, Yang Gao, Oleh Rybkin, Pieter Abbeel
@@ -231,7 +224,8 @@ Links: [paper](https://arxiv.org/abs/2512.02729) | [website]() | [code]() [2025,
 - **X-Humanoid: Robotize Human Videos to Generate Humanoid Videos at Scale**<br>
   Pei Yang, Hai Ci, Yiren Song, Mike Zheng Shou
   ![](https://img.shields.io/badge/eng--video2data-7c3aed) ![](https://img.shields.io/badge/src--video-0ea5e9) ![](https://img.shields.io/badge/deploy--lab-d97706)
-  Links: [paper](https://arxiv.org/abs/2512.04537) | [website]() | [code]() [2025, arXiv]
+
+Links: [paper](https://arxiv.org/abs/2512.04537) | [website]() | [code]() [2025, arXiv]
   
 - **Learning Interactive Real-World Simulators**<br>
   Sherry Yang, Yilun Du, Seyed Kamyar Seyed Ghasemipour, Jonathan Thompson, Leslie Kaelbling, Dale Schuurmans, Pieter Abbeel
