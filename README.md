@@ -224,7 +224,6 @@ Links: [paper](https://arxiv.org/abs/2512.02729) | [website]() | [code]() [2025,
 - **X-Humanoid: Robotize Human Videos to Generate Humanoid Videos at Scale**<br>
   Pei Yang, Hai Ci, Yiren Song, Mike Zheng Shou
   ![](https://img.shields.io/badge/eng--video2data-7c3aed) ![](https://img.shields.io/badge/src--video-0ea5e9) ![](https://img.shields.io/badge/deploy--lab-d97706)
-
 Links: [paper](https://arxiv.org/abs/2512.04537) | [website]() | [code]() [2025, arXiv]
   
 - **Learning Interactive Real-World Simulators**<br>
