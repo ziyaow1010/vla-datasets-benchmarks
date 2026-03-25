@@ -218,7 +218,21 @@ Links: [paper](https://arxiv.org/abs/2502.09886) | [website]() | [code]()
   ![](https://img.shields.io/badge/eng--video2data-7c3aed) ![](https://img.shields.io/badge/src--video-0ea5e9) ![](https://img.shields.io/badge/deploy--lab-d97706)
 Links: [paper](https://arxiv.org/abs/2502.09886) | [website]() | [code]()[2025, arXiv]
 
+- **From Generated Human Videos to Physically Plausible Robot Trajectories**<br>
+  James Ni, Zekai Wang, Wei Lin, Amir Bar, Yann LeCun, Trevor Darrell, Jitendra Malik, Roei Herzig
+  ![](https://img.shields.io/badge/eng--video2data-7c3aed) ![](https://img.shields.io/badge/src--video-0ea5e9) ![](https://img.shields.io/badge/deploy--lab-d97706)
+Links: [paper](https://arxiv.org/abs/2512.05094) | [website]() | [code]() [2025, arXiv]
 
+- **RoboWheel: A Data Engine from Real-World Human Demonstrations for Cross-Embodiment Robotic Learning**<br>
+  Yuhong Zhang, Zihan Gao, Shengpeng Li, Ling-Hao Chen, Kaisheng Liu, Runqing Cheng, Xiao Lin, Junjia Liu, Zhuoheng Li, Jingyi Feng, Ziyan He, Jintian Lin, Zheyan Huang, Zhifang Liu, Haoqian Wang
+  ![](https://img.shields.io/badge/eng--video2data-7c3aed) ![](https://img.shields.io/badge/src--video-0ea5e9) ![](https://img.shields.io/badge/deploy--lab-d97706)
+Links: [paper](https://arxiv.org/abs/2512.02729) | [website]() | [code]() [2025, arXiv]
+
+- **X-Humanoid: Robotize Human Videos to Generate Humanoid Videos at Scale**<br>
+  Pei Yang, Hai Ci, Yiren Song, Mike Zheng Shou
+  ![](https://img.shields.io/badge/eng--video2data-7c3aed) ![](https://img.shields.io/badge/src--video-0ea5e9) ![](https://img.shields.io/badge/deploy--lab-d97706)
+  Links: [paper](https://arxiv.org/abs/2512.04537) | [website]() | [code]() [2025, arXiv]
+  
 - **Learning Interactive Real-World Simulators**<br>
   Sherry Yang, Yilun Du, Seyed Kamyar Seyed Ghasemipour, Jonathan Thompson, Leslie Kaelbling, Dale Schuurmans, Pieter Abbeel
   ![](https://img.shields.io/badge/eng--video2data-7c3aed) ![](https://img.shields.io/badge/src--video-0ea5e9) ![](https://img.shields.io/badge/src--hybrid-6b7280) ![](https://img.shields.io/badge/deploy--closedloop-0891b2)  
@@ -228,7 +242,11 @@ Links: [paper](https://arxiv.org/abs/2502.09886) | [website]() | [code]()[2025, 
 ## Hardware-Assisted Engines
 
 Hardware-assisted engines collect robot data through teleoperation devices, wearable sensors, or portable interfaces, enabling direct action capture without full scene reconstruction.
-
+- **Lucid-XR: An Extended-Reality Data Engine for Robotic Manipulation**<br>
+  Yajvan Ravan, Adam Rashid, Alan Yu, Kai McClennen, Gio Huh, Kevin Yang, Zhutian Yang, Qinxi Yu, Xiaolong Wang, Phillip Isola, Ge Yang
+  ![](https://img.shields.io/badge/eng--hardware-2563eb) ![](https://img.shields.io/badge/src--hybrid-6b7280) ![](https://img.shields.io/badge/deploy--lab-d97706)
+  Links: [paper](https://lucidxr.github.io/assets/paper.pdf) | [website](https://lucidxr.github.io/) | [code]() [2025, arXiv]
+  
 - **Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware**<br>
   Tony Z. Zhao, Vikash Kumar, Sergey Levine, Chelsea Finn 
   ![](https://img.shields.io/badge/eng--hardware-2563eb) ![](https://img.shields.io/badge/src--human-16a34a) ![](https://img.shields.io/badge/deploy--lab-d97706)  
@@ -256,7 +274,36 @@ Hardware-assisted engines collect robot data through teleoperation devices, wear
 ## Generative Data Engines
 
 Generative data engines scale VLA training by synthesizing trajectories, tasks, scenes, or future observations through simulation and generative models.
+- **RoboGen: Towards Unleashing Infinite Data for Automated Robot Learning via Generative Simulation**<br>
+  Yufei Wang, Zhou Xian, Feng Chen, Tsun-Hsuan Wang, Yian Wang, Katerina Fragkiadaki, Zackory Erickson, David Held, Chuang Gan
+  ![](https://img.shields.io/badge/eng--generative-db2777) ![](https://img.shields.io/badge/src--sim-9333ea) ![](https://img.shields.io/badge/deploy--lab-d97706)
+  Links: [paper](https://arxiv.org/abs/2311.01455) | [website]() | [code]() [2024, ICML]
 
+- **RoboTwin 2.0: A Scalable Data Generator and Benchmark with Strong Domain Randomization for Robust Bimanual Robotic Manipulation**<br>
+  Tianxing Chen, Zanxin Chen, Baijun Chen, Zijian Cai, Yibin Liu, Zixuan Li, Qiwei Liang, Xianliang Lin, Yiheng Ge, Zhenyu Gu, Weiliang Deng, Yubin Guo, Tian Nian, Xuanbing Xie, Qiangyu Chen, Kailun Su, Tianling Xu, Guodong Liu, Mengkang Hu, Huan-ang Gao, Kaixuan Wang, Zhixuan Liang, Yusen Qin, Xiaokang Yang, Ping Luo, Yao Mu
+  ![](https://img.shields.io/badge/eng--generative-db2777) ![](https://img.shields.io/badge/src--sim-9333ea) ![](https://img.shields.io/badge/deploy--lab-d97706)
+  Links: [paper](https://arxiv.org/abs/2506.18088) | [website]() | [code]() [2025, arXiv]
+
+- **DynaMimicGen: A Data Generation Framework for Robot Learning of Dynamic Tasks**<br>
+  Vincenzo Pomponi, Paolo Franceschi, Stefano Baraldo, Loris Roveda, Oliver Avram, Luca Maria Gambardella, Anna Valente
+  ![](https://img.shields.io/badge/eng--generative-db2777) ![](https://img.shields.io/badge/src--sim-9333ea) ![](https://img.shields.io/badge/deploy--lab-d97706)
+  Links: [paper](https://arxiv.org/abs/2511.16223) | [website]() | [code]() [2025, arXiv]
+
+- **DemoGen: Synthetic Demonstration Generation for Data-Efficient Visuomotor Policy Learning**<br>
+  Zhengrong Xue, Shuying Deng, Zhenyang Chen, Yixuan Wang, Zhecheng Yuan, Huazhe Xu
+  ![](https://img.shields.io/badge/eng--generative-db2777) ![](https://img.shields.io/badge/src--sim-9333ea) ![](https://img.shields.io/badge/deploy--lab-d97706)
+  Links: [paper](https://arxiv.org/abs/2502.16932) | [website]() | [code]() [2025, arXiv]
+
+- **EMMA: Generalizing Real-World Robot Manipulation via Generative Visual Transfer**<br>
+  Zhehao Dong, Xiaofeng Wang, Zheng Zhu, Yirui Wang, Yang Wang, Yukun Zhou, Boyuan Wang, Chaojun Ni, Runqi Ouyang, Wenkang Qin, Xinze Chen, Yun Ye, Guan Huang, Zhen Lu, Yue Yang
+  ![](https://img.shields.io/badge/eng--generative-db2777) ![](https://img.shields.io/badge/src--human-16a34a) ![](https://img.shields.io/badge/deploy--lab-d97706)
+  Links: [paper](https://arxiv.org/abs/2509.22407) | [website]() | [code]() [2025, arXiv]
+
+- **RoboEngine: Plug-and-Play Robot Data Augmentation with Semantic Robot Segmentation and Background Generation**<br>
+  Chengbo Yuan, Suraj Joshi, Shaoting Zhu, Hang Su, Hang Zhao, Yang Gao
+  ![](https://img.shields.io/badge/eng--generative-db2777) ![](https://img.shields.io/badge/src--human-16a34a) ![](https://img.shields.io/badge/deploy--lab-d97706)
+  Links: [paper](https://arxiv.org/abs/2503.18738) | [website]() | [code]() [2025, arXiv]
+  
 - **MimicGen: A Data Generation System for Scalable Robot Learning using Human Demonstrations**<br>
   Ajay Mandlekar, Soroush Nasiriany, Bowen Wen, Iretiayo Akinola, Yashraj Narang, Linxi Fan, Yuke Zhu, Dieter Fox  
   ![](https://img.shields.io/badge/eng--generative-db2777) ![](https://img.shields.io/badge/src--sim-9333ea) ![](https://img.shields.io/badge/src--human-16a34a)  
@@ -286,6 +333,11 @@ Generative data engines scale VLA training by synthesizing trajectories, tasks, 
   ![](https://img.shields.io/badge/eng--generative-db2777) ![](https://img.shields.io/badge/src--video-0ea5e9) ![](https://img.shields.io/badge/deploy--closedloop-0891b2)  
   Links: [paper](https://arxiv.org/pdf/2402.15391) | [website]() | [code]() [2024, ICML]  
   A latent action world model learned from large-scale video data, suggesting a path toward web-scale pretraining for embodied agents.
+
+- **IRASim: A Fine-Grained World Model for Robot Manipulation**<br>
+  Fangqi Zhu, Hongtao Wu, Song Guo, Yuxiao Liu, Chilam Cheang, Tao Kong
+  ![](https://img.shields.io/badge/eng--generative-db2777) ![](https://img.shields.io/badge/src--sim-9333ea) ![](https://img.shields.io/badge/deploy--closedloop-0891b2)
+  Links: [paper](https://arxiv.org/abs/2406.14540) | [website]() | [code]() [2025, ICCV]
 
 > Note: some works (e.g., MimicGen, RoboGen) are included both as dataset sources and as data engines because they provide not only generated data, but also the pipeline used to construct it.
 
