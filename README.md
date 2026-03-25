@@ -211,7 +211,13 @@ Video-to-data engines transform human or internet videos into robot-executable t
 - **Video2Policy: Scaling up Manipulation Tasks in Simulation through Internet Videos**<br>
 Weirui Ye, Fangchen Liu, Zheng Ding, Yang Gao, Oleh Rybkin, Pieter Abbeel
 1 
-Links: [paper](https://arxiv.org/abs/2502.09886) | [website]() | [code]() 
+Links: [paper](https://arxiv.org/abs/2502.09886) | [website]() | [code]()
+
+- **Video2Policy: Scaling up Manipulation Tasks in Simulation through Internet Videos**<br>
+  Weirui Ye, Fangchen Liu, Zheng Ding, Yang Gao, Oleh Rybkin, Pieter Abbeel
+  ![](https://img.shields.io/badge/eng--video2data-7c3aed) ![](https://img.shields.io/badge/src--video-0ea5e9) ![](https://img.shields.io/badge/deploy--lab-d97706)
+Links: [paper](https://arxiv.org/abs/2502.09886) | [website]() | [code]()[2025, arXiv]
+
 
 - **Learning Interactive Real-World Simulators**<br>
   Sherry Yang, Yilun Du, Seyed Kamyar Seyed Ghasemipour, Jonathan Thompson, Leslie Kaelbling, Dale Schuurmans, Pieter Abbeel
