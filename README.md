@@ -205,7 +205,9 @@ Links: [paper](https://arxiv.org/pdf/2310.08864) | [website]() | [code]() [2023,
 Data engines focus on **how VLA training data is produced**, rather than only listing static datasets.  
 Here we group them into three categories: **Video-to-Data Engines**, **Hardware-Assisted Engines**, and **Generative Data Engines**.
 
+## Video-to-Data Engines
 
+Video-to-data engines produce robot training data by transforming human or internet videos into action supervision, trajectories, or simulation-ready demonstrations.
 - **Video2Policy: Scaling up Manipulation Tasks in Simulation through Internet Videos**<br>
   Weirui Ye, Fangchen Liu, Zheng Ding, Yang Gao, Oleh Rybkin, Pieter Abbeel
   ![](https://img.shields.io/badge/eng--video2data-7c3aed) ![](https://img.shields.io/badge/src--video-0ea5e9) ![](https://img.shields.io/badge/deploy--lab-d97706)
