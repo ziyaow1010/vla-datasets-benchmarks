@@ -324,6 +324,11 @@ Generative data engines scale VLA training by synthesizing trajectories, tasks, 
   ![](https://img.shields.io/badge/eng--generative-db2777) ![](https://img.shields.io/badge/src--sim-9333ea) ![](https://img.shields.io/badge/deploy--closedloop-0891b2)
   Links: [paper](https://arxiv.org/abs/2406.14540) | [website]() | [code]() [2025, ICCV]
 
+- **DOMINO: Towards Generalizable Robotic Manipulation in Dynamic Environments**<br>
+  Heng Fang, Shangru Li, Shuhan Wang, Xuanyang Xi, Dingkang Liang, Xiang Bai
+  ![](https://img.shields.io/badge/eng--generative-db2777) ![](https://img.shields.io/badge/src--sim-9333ea) ![](https://img.shields.io/badge/deploy--lab-d97706)
+  Links: [paper](https://arxiv.org/abs/2603.15620) | [website]() | [code](https://github.com/H-EmbodVis/DOMINO) [2026, Arxiv]
+
 > Note: some works (e.g., MimicGen, RoboGen) are included both as dataset sources and as data engines because they provide not only generated data, but also the pipeline used to construct it.
 
 ---
