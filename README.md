@@ -161,7 +161,7 @@ Links: [paper](https://proceedings.mlr.press/v100/yu20a/yu20a.pdf) | [website]()
 
 - **LIBERO: Benchmarking Knowledge Transfer for Lifelong Robot Learning**<br>Bo Liu, Yifeng Zhu, Chongkai Gao, Yihao Feng, Qiang Liu, Yuke Zhu, Peter Stone
 ![](https://img.shields.io/badge/task--tabletop-f59e0b) ![](https://img.shields.io/badge/task--short-0ea5e9)  
-Links: [paper](https://proceedings.neurips.cc/paper_files/paper/2023/file/8c3c666820ea055a77726d66fc7d447f-Paper-Datasets_and_Benchmarks.pdf) | [website]() | [code]() [2023, NeurIPS]
+Links: [paper](https://proceedings.neurips.cc/paper_files/paper/2023/file/8c3c666820ea055a77726d66fc7d447f-Paper-Datasets_and_Benchmarks.pdf) | [website](https://libero-project.github.io/datasets) | [code]() [2023, NeurIPS]
 
 - **Evaluating Real-World Robot Manipulation Policies in Simulation**<br>Xuanlin Li, Kyle Hsu, Jiayuan Gu, Karl Pertsch, Oier Mees, Homer Rich Walke, Chuyuan Fu, Ishikaa Lunawat, Isabel Sieh, Sean Kirmani, Sergey Levine, Jiajun Wu, Chelsea Finn, Hao Su, Quan Vuong, Ted Xiao
 ![](https://img.shields.io/badge/task--tabletop-f59e0b) ![](https://img.shields.io/badge/task--short-0ea5e9)  
@@ -174,7 +174,7 @@ Long-horizon instruction following and compositional manipulation in tabletop se
 
 - **CALVIN: A Benchmark for Language-Conditioned Policy Learning for Long-Horizon Robot Manipulation Tasks**<br>Oier Mees, Lukas Hermann, Erick Rosete-Beas, Wolfram Burgard
 ![](https://img.shields.io/badge/task--tabletop-f59e0b) ![](https://img.shields.io/badge/task--long-ec4899)  
-Links: [paper](https://arxiv.org/pdf/2112.03227) | [website]() | [code]() [2022, arXiv]
+Links: [paper](https://arxiv.org/pdf/2112.03227) | [website](http://calvin.cs.uni-freiburg.de/) | [code]() [2022, arXiv]
 
 ---
 
@@ -188,15 +188,15 @@ Multi-room / full-scene environments with long-horizon and compositional tasks.
 
 - **BEHAVIOR-1K: A Benchmark for Embodied AI with 1,000 Everyday Activities and Realistic Simulation**<br>Chengshu Li, Ruohan Zhang, Josiah Wong, Cem Gokmen, Sanjana Srivastava, Roberto Martín-Martín, Chen Wang, Gabrael Levine, Michael Lingelbach, Jiankai Sun, Mona Anvari, Minjune Hwang, Manasi Sharma, Arman Aydin, Dhruva Bansal, Samuel Hunter, Kyu-Young Kim, Alan Lou, Caleb R Matthews, Ivan Villa-Renteria, Jerry Huayang Tang, Claire Tang, Fei Xia, Silvio Savarese, Hyowon Gweon, Karen Liu, Jiajun Wu, Li Fei-Fei
 ![](https://img.shields.io/badge/task--multi--scene-d29922) ![](https://img.shields.io/badge/task--long-ec4899)  
-Links: [paper](https://proceedings.mlr.press/v205/li23a/li23a.pdf) | [website]() | [code]() [2023, PMLR]
+Links: [paper](https://proceedings.mlr.press/v205/li23a/li23a.pdf) | [website](https://behavior.stanford.edu/index.html) | [code]() [2023, PMLR]
 
 - **VLABench: A Large-Scale Benchmark for Language-Conditioned Robotics Manipulation with Long-Horizon Reasoning Tasks**<br>Shiduo Zhang, Zhe Xu, Peiju Liu, Xiaopeng Yu, Yuan Li, Qinghui Gao, Zhaoye Fei, Zhangyue Yin, Zuxuan Wu, Yu-Gang Jiang, Xipeng Qiu
 ![](https://img.shields.io/badge/task--multi--scene-d29922) ![](https://img.shields.io/badge/task--long-ec4899)  
-Links: [paper](https://openaccess.thecvf.com/content/ICCV2025/papers/Zhang_VLABench_A_Large-Scale_Benchmark_for_Language-Conditioned_Robotics_Manipulation_with_Long-Horizon_ICCV_2025_paper.pdf) | [website]() | [code]() [2024, arXiv]
+Links: [paper](https://openaccess.thecvf.com/content/ICCV2025/papers/Zhang_VLABench_A_Large-Scale_Benchmark_for_Language-Conditioned_Robotics_Manipulation_with_Long-Horizon_ICCV_2025_paper.pdf) | [website](https://vlabench.github.io/) | [code]() [2024, arXiv]
 
 - **Open X-Embodiment: Robotic Learning Datasets and RT-X Models**<br>Open X-Embodiment Collaboration et al.
 ![](https://img.shields.io/badge/task--multi--scene-d29922) ![](https://img.shields.io/badge/task--long-ec4899)  
-Links: [paper](https://arxiv.org/pdf/2310.08864) | [website]() | [code]() [2023, Evaluation Regime]
+Links: [paper](https://arxiv.org/pdf/2310.08864) | [website](https://robotics-transformer-x.github.io/) | [code](https://github.com/google-deepmind/open_x_embodiment) [2023, Evaluation Regime]
 
 ---
 
@@ -221,7 +221,7 @@ Links: [paper](https://arxiv.org/abs/2512.05094) | [website]() | [code]() [2025,
 - **RoboWheel: A Data Engine from Real-World Human Demonstrations for Cross-Embodiment Robotic Learning**<br>
   Yuhong Zhang, Zihan Gao, Shengpeng Li, Ling-Hao Chen, Kaisheng Liu, Runqing Cheng, Xiao Lin, Junjia Liu, Zhuoheng Li, Jingyi Feng, Ziyan He, Jintian Lin, Zheyan Huang, Zhifang Liu, Haoqian Wang
   ![](https://img.shields.io/badge/eng--video2data-7c3aed) ![](https://img.shields.io/badge/src--video-0ea5e9) ![](https://img.shields.io/badge/deploy--lab-d97706)
-Links: [paper](https://arxiv.org/abs/2512.02729) | [website]() | [code]() [2025, arXiv]
+Links: [paper](https://arxiv.org/abs/2512.02729) | [website](https://zhangyuhong01.github.io/Robowheel) | [code](https://github.com/zhangyuhong01/Robowheel-Toolkits) [2025, arXiv]
 
 - **X-Humanoid: Robotize Human Videos to Generate Humanoid Videos at Scale**<br>
   Pei Yang, Hai Ci, Yiren Song, Mike Zheng Shou
@@ -292,7 +292,7 @@ Generative data engines scale VLA training by synthesizing trajectories, tasks, 
 - **RoboEngine: Plug-and-Play Robot Data Augmentation with Semantic Robot Segmentation and Background Generation**<br>
   Chengbo Yuan, Suraj Joshi, Shaoting Zhu, Hang Su, Hang Zhao, Yang Gao
   ![](https://img.shields.io/badge/eng--generative-db2777) ![](https://img.shields.io/badge/src--human-16a34a) ![](https://img.shields.io/badge/deploy--lab-d97706)
-  Links: [paper](https://arxiv.org/abs/2503.18738) | [website]() | [code]() [2025, arXiv]
+  Links: [paper](https://arxiv.org/abs/2503.18738) | [website]() | [code](https://github.com/michaelyuancb/roboengine) [2025, arXiv]
   
 - **MimicGen: A Data Generation System for Scalable Robot Learning using Human Demonstrations**<br>
   Ajay Mandlekar, Soroush Nasiriany, Bowen Wen, Iretiayo Akinola, Yashraj Narang, Linxi Fan, Yuke Zhu, Dieter Fox  
@@ -312,7 +312,7 @@ Generative data engines scale VLA training by synthesizing trajectories, tasks, 
 - **3D-VLA: A 3D Vision-Language-Action Generative World Model**<br>
   Haoyu Zhen, Xiaowen Qiu, Peihao Chen, Jincheng Yang, Xin Yan, Yilun Du, Yining Hong, Chuang Gan 
   ![](https://img.shields.io/badge/eng--generative-db2777) ![](https://img.shields.io/badge/src--hybrid-6b7280) ![](https://img.shields.io/badge/deploy--closedloop-0891b2)  
-  Links: [paper](https://arxiv.org/pdf/2403.09631) | [website]() | [code]() [2024, ICML]  
+  Links: [paper](https://arxiv.org/pdf/2403.09631) | [website]() | [code](https://github.com/UMass-Embodied-AGI/3D-VLA) [2024, ICML]  
 
 - **Genie: Generative Interactive Environments**<br>
   Jake Bruce, Michael Dennis, Ashley Edwards, Jack Parker-Holder, Yuge (Jimmy) Shi, Edward Hughes, Matthew Lai, Aditi Mavalankar, Richie Steigerwald, Chris Apps, Yusuf Aytar, Sarah Bechtle1, Feryal Behbahani, Stephanie Chan, Nicolas Heess, Lucy Gonzalez, Simon Osindero, Sherjil Ozair, Scott Reed, Jingwei Zhang, Konrad Zolna, Jeff Clune, Nando de Freitas, Satinder Singh, Tim Rocktäschel  
